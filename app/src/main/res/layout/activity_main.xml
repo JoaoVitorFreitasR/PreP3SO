@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etNumero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite um número"
+        android:inputType="number"
+        android:maxLines="1" />
+
+    <Button
+        android:id="@+id/btnCalc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular" />
+
+    <TextView
+        android:id="@+id/tvResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:text="Resultado aparecerá aqui"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText" />
+</LinearLayout>
